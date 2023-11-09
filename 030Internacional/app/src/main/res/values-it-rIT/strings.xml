@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">030Internacional</string>
+    <string name="uno">Nome</string>
+    <string name="dos">Cognomi</string>
+    <string name="tres">eMailini</string>
+    <string name="cuatro">Parola  d\'ordine</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">030Internacional</string>
+    <string name="uno">Nombre</string>
+    <string name="dos">Apellidos</string>
+    <string name="tres">eMail</string>
+    <string name="cuatro">Clave</string>
+</resources>
