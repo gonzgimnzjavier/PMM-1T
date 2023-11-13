@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/detailsContainer"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"/>
+
+    <LinearLayout
+        android:id="@+id/detailsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="#EEE"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/selectedTeamLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/selectedTeamName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Nombre del equipo"
+        android:textSize="24sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>
+
+
+    </RelativeLayout>
