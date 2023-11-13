@@ -1,0 +1,3 @@
+com.example.a031listview.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
