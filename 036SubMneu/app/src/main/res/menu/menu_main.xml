@@ -1,0 +1,78 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.a036submneu.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/it1"
+        android:orderInCategory="101"
+        android:title="Item1" >
+        <menu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <item
+                android:id="@+id/it1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="Item1_1" />
+            <item
+                android:id="@+id/it1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="Item1_2" />
+            <item
+                android:id="@+id/it1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="Item1_3" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/it2"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:orderInCategory="102"
+        android:title="Item2" >
+        <menu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <item
+                android:id="@+id/it2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="Item2_1" />
+        </menu>
+    </item>
+    <group
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <item
+            android:id="@+id/app_bar_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Switch"
+            app:actionLayout="@layout/switch_item"
+            app:showAsAction="always|withText"  />
+        <item
+            android:id="@+id/app_bar_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@android:drawable/btn_plus"
+            android:title="Search"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/gr_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="grupo2" />
+        <item
+            android:id="@+id/gr_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="grupo1" />
+    </group>
+
+</menu>
